@@ -1,0 +1,12 @@
+[{ "stmt": "SELECT * FROM sqlite_master;", "header": ["type", "name", "tbl_name", "rootpage", "sql"], "rows": [
+        ["table", "__EFMigrationsHistory", "__EFMigrationsHistory", "2", "CREATE TABLE \"__EFMigrationsHistory\" (\r\n    \"MigrationId\" TEXT NOT NULL CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY,\r\n    \"ProductVersion\" TEXT NOT NULL\r\n)"],
+        ["index", "sqlite_autoindex___EFMigrationsHistory_1", "__EFMigrationsHistory", "3", "NULL"],
+        ["table", "Alunos", "Alunos", "4", "CREATE TABLE \"Alunos\" (\r\n    \"Id\" INTEGER NOT NULL CONSTRAINT \"PK_Alunos\" PRIMARY KEY AUTOINCREMENT,\r\n    \"Nome\" TEXT NULL,\r\n    \"SobreNome\" TEXT NULL,\r\n    \"Telefone\" TEXT NULL\r\n)"],
+        ["table", "sqlite_sequence", "sqlite_sequence", "5", "CREATE TABLE sqlite_sequence(name,seq)"],
+        ["table", "Professores", "Professores", "6", "CREATE TABLE \"Professores\" (\r\n    \"Id\" INTEGER NOT NULL CONSTRAINT \"PK_Professores\" PRIMARY KEY AUTOINCREMENT,\r\n    \"Nome\" TEXT NULL\r\n)"],
+        ["table", "Disciplinas", "Disciplinas", "7", "CREATE TABLE \"Disciplinas\" (\r\n    \"Id\" INTEGER NOT NULL CONSTRAINT \"PK_Disciplinas\" PRIMARY KEY AUTOINCREMENT,\r\n    \"Nome\" TEXT NULL,\r\n    \"ProfessorId\" INTEGER NOT NULL,\r\n    CONSTRAINT \"FK_Disciplinas_Professores_ProfessorId\" FOREIGN KEY (\"ProfessorId\") REFERENCES \"Professores\" (\"Id\") ON DELETE CASCADE\r\n)"],
+        ["table", "AlunoDisciplinas", "AlunoDisciplinas", "8", "CREATE TABLE \"AlunoDisciplinas\" (\r\n    \"AlunoId\" INTEGER NOT NULL,\r\n    \"DisciplinaId\" INTEGER NOT NULL,\r\n    CONSTRAINT \"PK_AlunoDisciplinas\" PRIMARY KEY (\"AlunoId\", \"DisciplinaId\"),\r\n    CONSTRAINT \"FK_AlunoDisciplinas_Alunos_AlunoId\" FOREIGN KEY (\"AlunoId\") REFERENCES \"Alunos\" (\"Id\") ON DELETE CASCADE,\r\n    CONSTRAINT \"FK_AlunoDisciplinas_Disciplinas_DisciplinaId\" FOREIGN KEY (\"DisciplinaId\") REFERENCES \"Disciplinas\" (\"Id\") ON DELETE CASCADE\r\n)"],
+        ["index", "sqlite_autoindex_AlunoDisciplinas_1", "AlunoDisciplinas", "9", "NULL"],
+        ["index", "IX_AlunoDisciplinas_DisciplinaId", "AlunoDisciplinas", "10", "CREATE INDEX \"IX_AlunoDisciplinas_DisciplinaId\" ON \"AlunoDisciplinas\" (\"DisciplinaId\")"],
+        ["index", "IX_Disciplinas_ProfessorId", "Disciplinas", "11", "CREATE INDEX \"IX_Disciplinas_ProfessorId\" ON \"Disciplinas\" (\"ProfessorId\")"]
+    ] }]
