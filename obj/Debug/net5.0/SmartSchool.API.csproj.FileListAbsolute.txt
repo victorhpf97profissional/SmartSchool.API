@@ -41,10 +41,6 @@ C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartS
 C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\runtimes\linux-x64\native\libsqlite3.so
-C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\runtimes\osx-x64\native\libsqlite3.dylib
-C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\runtimes\win7-x64\native\sqlite3.dll
-C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\runtimes\win7-x86\native\sqlite3.dll
 C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
 C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Conesoft\Desktop\pasta victor\Projetos Software\.NET\SMARTSCHOOL\SmartSchool.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll

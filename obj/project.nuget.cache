@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pRBXhSnshCyfSONnu/45LLvawslT8DE7krqZRZ3BwaeJaUX4aqJ1zL72+igHSJl/cENy35n8K8MY1al95jUKxA==",
+  "dgSpecHash": "Z+MaKg5NaSXHE+nrlnmXJbSOnk+D+uxY4FYOygImEm0GcfbD8Ad82sVkXFcQ3c6E5Ca0HPOI/w9dNuovsyCh1w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Conesoft\\Desktop\\pasta victor\\Projetos Software\\.NET\\SMARTSCHOOL\\SmartSchool.API\\SmartSchool.API.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,6 @@
     "C:\\Users\\Conesoft\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "C:\\Users\\Conesoft\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
     "C:\\Users\\Conesoft\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Conesoft\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
     "C:\\Users\\Conesoft\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Conesoft\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\Conesoft\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
